@@ -25,7 +25,8 @@ div{
     background: #ffffff;
 }
 
-.header {
+header {
+    display: flex;
     align-items: center;
     justify-content: space-between;
     width: 1140px;
@@ -123,7 +124,8 @@ div{
     color: #0B132A;
 }
 
-.menu_text_block {
+nav {
+    display: flex;
     width: 451px;
     height: 19px;
     justify-content: space-between;
@@ -307,6 +309,27 @@ div{
     
     
     color: #0B132A;
+}
+
+.features__list {
+    font-size: 14px;
+    list-style: none;
+    padding: 0;
+  }
+  
+.features__list-item {
+    /* margin-top: 15px; */
+    background: url("Img/Point.svg") no-repeat center left;
+    padding: 5px 34px;
+
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 30px;
+    margin-left: 5px;
+    
+    color: #4F5665;
 }
 
 .Features_text_2 {
@@ -653,7 +676,8 @@ div{
     border-radius: 10px;
 }
 
-.Footer {
+footer {
+    display: flex;
     justify-content: center;
     align-items: flex-end;
 
