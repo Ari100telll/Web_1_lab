@@ -311,13 +311,13 @@ nav {
     color: #0B132A;
 }
 
-.features__list {
+.features_list {
     font-size: 14px;
     list-style: none;
     padding: 0;
   }
   
-.features__list-item {
+.features_list_item {
     /* margin-top: 15px; */
     background: url("Img/Point.svg") no-repeat center left;
     padding: 5px 34px;
