@@ -1,129 +1,54 @@
-@import "header.css";
-
-@import "section_1.css";
-
-@import "section_2.css";
-
-@import "section_3.css";
-
-@import "section_4.css";
-
-@import "footer.css";
-
-html, body {
+html,
+body {
+    font-weight: 500;
     display: flex;
-
     font-family: Rubik;
-
     justify-content: center;
-
-    background: #000;
-     /* background-size: 2423px auto; */
-    margin:0;
-    padding:0;
+    background: #fff;
+    /* background-size: 2423px auto; */
+    margin: 0;
+    padding: 0;
 }
 
 body {
-        padding-top: 38px;
-        align-items: center;
-        flex-direction: column;
-        width: 100%;
-        /* width: 1441px; */
-        /* height: 2306.5px; */
-    
-        /* border: 3px solid springgreen; */
-    
-        background: #ffffff;
+    padding-top: 38px;
+    align-items: center;
+    flex-direction: column;
+    max-width: 1400px;
+    margin: 0 auto;
+    width: 100%;
+    /* width: 1441px; */
+    /* height: 2306.5px; */
+    /* border: 3px solid springgreen; */
+    background: #ffffff;
 }
 
-div{
+div {
     display: flex
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-.Features_text_3_block {
-    width: 432.08px;
-
-    margin-top: 15px;
-
-    /* border: 1px solid blue; */
+li {
+    display: flex;
 }
 
-.Features_text_3_block_icon {
-    width: 24px;
-    height: 24px;
+a {
+    display: flex;
+    text-decoration: none;
 }
 
-.Features_text_3_block_text {
-    width: 180px;
-    height: 30px;
-    
-    font-family: Rubik;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 30px;
-    margin-left: 5px;
-    
-    color: #4F5665;
-
-    /* border: 1px solid springgreen; */
+ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
 }
 
+button {
+    display: flex;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+@media screen and (max-width: 800px) {
+    body {
+        padding-top: 0;
+        font-weight: 400;
+    }
+}
