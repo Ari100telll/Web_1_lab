@@ -27,7 +27,7 @@ header {
 
 nav {
     display: flex;
-    width: 45%;
+    width: 50%;
     /* border: 1px solid black; */
 }
 
@@ -37,6 +37,10 @@ nav {
     align-items: center;
     /* border: 1px solid blue; */
     color: rgba(79, 86, 101, 1);
+}
+
+.nav_block {
+    margin-right: 5px;
 }
 
 .nav_block a {

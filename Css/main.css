@@ -1,6 +1,5 @@
 html,
 body {
-    font-weight: 500;
     display: flex;
     font-family: Rubik;
     justify-content: center;
@@ -11,10 +10,11 @@ body {
 }
 
 body {
+    font-weight: 500;
+    max-width: 2000px;
     padding-top: 38px;
     align-items: center;
     flex-direction: column;
-    max-width: 1400px;
     margin: 0 auto;
     width: 100%;
     /* width: 1441px; */
