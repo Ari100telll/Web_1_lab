@@ -4,9 +4,9 @@
     height: 100%;
     flex-direction: row;
     justify-content: space-around;
+    background: linear-gradient(180deg, #F6F5F5 -45.04%, #FFFFFF 19.67%, #F4F3F3 88.56%);
     align-items: center;
     /* border: 1x solid black; */
-    background: linear-gradient(180deg, #F6F5F5 -45.04%, #FFFFFF 19.67%, #F4F3F3 88.56%);
 }
 
 .Illustration_2 {
